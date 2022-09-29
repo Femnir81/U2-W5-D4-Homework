@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 onclick="menu()">Menu</h1>
+        <p>Scrivi</p>
+        <p>Quello</p>
+        <p>Che devi fare!</p>
+      </div>
+    </header>
+    <section>
+      <div class="input-area">
+        <h2>TO DO LIST</h2>
+        <input id="input-text" type="text" placeholder="Scrivi qualcosa..." />
+        <button id="button-enter" onclick="aggiungiLista()">INVIA</button>
+      </div>
+      <div id="lista-to-do"></div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
