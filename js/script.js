@@ -1,8 +1,9 @@
 function menu() {
     let ar = document.querySelectorAll('header p')
-    ar.forEach(element => {
-        element.classList.toggle('visible')
-    });
+    for (i = 0; i < ar.length; i++) {
+        let b = ar[i]
+        b.classList.toggle('visible')
+    }
 }
 
 
